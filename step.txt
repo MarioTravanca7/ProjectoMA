@@ -13,3 +13,9 @@ Creating DataBase
 criar projecto React
 cmd Projecto: npx create-react-app marazores
 --------------------------------------------3----------------------------------
+
+
+--------------------------------------------4----------------------------------
+nuget: MediatR.Extensions.Microsoft.DependencyInjection
+
+--------------------------------------------4----------------------------------
