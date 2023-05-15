@@ -1,0 +1,13 @@
+Creating an Entity framework code first migration
+cmd projecto: dotnet tool install --global dotnet-ef --version 7.0.5
+cmd projecto: dotnet tool update --global dotnet-ef --version 7.0.5
+cmd projecto:dotnet ef
+nuget: Microsoft.EntityFrameworkCore.Design --> API.cspro
+
+cmd projecto:dotnet ef migrations add FirstMigration -s API -p Persistence
+
+Creating DataBase
+
+
+--------------------------------------------3----------------------------------
+--------------------------------------------3----------------------------------
