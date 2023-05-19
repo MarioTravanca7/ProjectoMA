@@ -12,6 +12,11 @@ Creating DataBase
 --------------------------------------------3----------------------------------
 criar projecto React
 cmd Projecto: npx create-react-app marazores
+
+semantic UI
+marazores> npm install semantic-ui-react semantic-ui-css 
+
+marazores> npm install axios
 --------------------------------------------3----------------------------------
 
 
@@ -19,3 +24,8 @@ cmd Projecto: npx create-react-app marazores
 nuget: MediatR.Extensions.Microsoft.DependencyInjection
 
 --------------------------------------------4----------------------------------
+
+--------------------------------------------5----------------------------------
+\marazores> npm install uuid
+
+--------------------------------------------5----------------------------------

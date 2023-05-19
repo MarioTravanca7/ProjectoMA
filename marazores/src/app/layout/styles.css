@@ -1,0 +1,65 @@
+body {
+  background-color: #f1f1f1 !important;
+}
+
+.ui.inverted.top.fixed.menu {
+  /* background-image: linear-gradient(135deg, rgb(24, 42, 115) 0%, rgb(33, 138, 174) 69%, rgb(32, 167, 172) 89%) !important; */
+  /* background-color: transparent;  */
+  background-color: #ffffff !important;
+  /* margin-left: 25%; */
+  font-family: sans-serif;
+  /* padding: 20px; */
+
+}
+
+.menu.item-hovered {
+  background-color: #333; /* Defina a cor de fundo desejada para o item ao passar o mouse */
+  color: #fff; /* Defina a cor do texto desejada para o item ao passar o mouse */
+}
+
+.menu-items-container {
+  display: flex;
+  justify-content: center;
+}
+
+.nav-container{
+  margin-left: 100px;
+}
+
+.nav-item{
+  color: black;
+}
+
+/*home page styles*/
+/* 
+.masthead {
+  display: flex;
+  align-items: center;
+  background-image: linear-gradient(
+          135deg,
+          rgb(24, 42, 115) 0%,
+          rgb(33, 138, 174) 69%,
+          rgb(32, 167, 172) 89%
+  ) !important;
+  height: 100vh;
+}
+
+.masthead .ui.menu .ui.button,
+.ui.menu a.ui.inverted.button {
+  margin-left: 0.5em;
+}
+
+.masthead h1.ui.header {
+  font-size: 4em;
+  font-weight: normal;
+}
+
+.masthead h2 {
+  font-size: 1.7em;
+  font-weight: normal;
+} */
+/*end home page styles*/
+
+
+
+

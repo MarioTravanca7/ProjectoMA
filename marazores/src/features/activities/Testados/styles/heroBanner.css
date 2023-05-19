@@ -1,0 +1,15 @@
+.hero-banner-container {
+    position: relative;
+    height: 100vh;
+    border-radius: 150px;
+  }
+  
+  .hero-banner-conteudo {
+    position: absolute;
+    top: 39%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 150px;
+    /* Estilos do conteúdo do componente */
+
+  }
