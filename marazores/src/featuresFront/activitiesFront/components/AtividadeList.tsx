@@ -1,21 +1,19 @@
 import { Grid } from "semantic-ui-react";
-import { Activity } from "../../../app/models/activity";
 import "../../styles/slideImage.css";
 import AtividadeCard from "./AtividadeCard";
+import { useStore } from "../../../app/stores/store";
 
-interface Props {
-  activities: Activity[];
-}
   
 
-function AtividadeList({ activities }: Props) {
+function AtividadeList() {
+  const { activityStore } = useStore();
 
   const generateColumns = (): JSX.Element[] => {
   
     const columns: JSX.Element[] = [];
-    for (let i = 0; i < activities.length; i += 3) {
+    for (let i = 0; i < activityStore.activitiesByTitle.length; i += 3) {
 
-      const rowActivities = activities.slice(i, i + 3);
+      const rowActivities = activityStore.activitiesByTitle.slice(i, i + 3);
 
       const rowColumns = rowActivities.map((activity) => (
         <Grid.Column key={activity.id}>
@@ -27,7 +25,6 @@ function AtividadeList({ activities }: Props) {
     }
     return columns;
   };
-
 
   return (
     <Grid columns={3} divided>

@@ -2,6 +2,7 @@ import React from "react";
 import { Activity } from "../../../app/models/activity";
 import "../../styles/slideImage.css";
 import { Slide } from "react-slideshow-image";
+import { useStore } from "../../../app/stores/store";
 
 const buttonStyle = {
   width: "30px",
@@ -31,15 +32,15 @@ const proprietes = {
 
 };
 
-interface Props {
-  activities: Activity[];
-}
+
 // style={{marginBottom: '100px'}}
-function SlideImage({ activities }: Props) {
+function SlideImage() {
+  const { activityStore } = useStore();
+
   return (
     <div className="slide-image" style={{marginBottom: '100px'}}>
     <Slide {...proprietes}>
-      {activities.map((activity: any) => (
+      {activityStore.activitiesByTitle.map((activity: any) => (
         <div className="each-slide-effect">
           <div
             style={{

@@ -8,7 +8,6 @@ import {
   MDBRow,
   MDBBtn,
 } from "mdb-react-ui-kit";
-import { FaInstagram } from "react-icons/fa";
 
 export default function Footer() {
   return (
